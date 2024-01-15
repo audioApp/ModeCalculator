@@ -1,10 +1,30 @@
+.index {
+  // margin-top: 20pt;
+  // border-top: 20pt;
+  margin-left: 8pt;
+  margin-right: 8pt;
+}
 .main_message {
-  border-left: 20px;
-  border-right: 20px;
   color: teal;
 }
 
-.section1 {
+.section {
   //   background-color: black;
-  border: 8px;
+  display: flex;
+  align-items: center;
+  margin-top: 10pt;
+  margin-left: 8pt;
+  margin-right: 8pt;
+}
+
+.section_text {
+  margin-left: 20pt;
+  width: 25%;
+  // color: turquoise;
+}
+
+.section_detial {
+  width: 60%;
+  background-color: tan;
+  text-align: center;
 }
